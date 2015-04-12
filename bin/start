@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+nodemon ./bin/dev-server \
+    --watch ./lib \
+    --watch ./src | bunyan
